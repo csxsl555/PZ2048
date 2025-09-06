@@ -48,6 +48,7 @@ char Decide() {
     // 0=w, 1=s, 2=a, 3=d
     // Please find a strategy to return a char for the direction you want to move
     // Here's an example for random move for four directions with equal probability
+    // Notice: the program could not run in reality, please find a reasonable algorithm on your own :)
     srand(time(nullptr));
     static const char dir_map[4] = {'w', 's', 'a', 'd'};
     return dir_map[rand()%4];
