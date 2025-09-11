@@ -11,6 +11,7 @@ namespace PZ2048 {
 
 /**
  * Initialize and start a Puzzle2048 game.
+ * Hint: you might need srand() function to randomize with the seed
  */
 void Start(int row_num, int col_num, int target = 2048, uint game_seed = 0);
 
