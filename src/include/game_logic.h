@@ -48,7 +48,7 @@ bool TryRun(char dir);
 
 /**
  * Try to undo an operation.
- * Succeeds only when it has a previous move, and it is not an undo.
+ * Succeeds only when it has a previous move.
  * The board status, the score and the steps count should all be undone.
  *
  * @return whether this undo succeeds.
